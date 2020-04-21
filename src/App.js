@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/Navbar';
+import PropsExample from './component/PropsExample';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Navbar/> 
+      <PropsExample prop1="Brie" prop2="Juan"/>
+      
     </div>
   );
 }
 
 export default App;
+
+// create prop, place inside chevrons Example (<PropName prop1="value"/>)
