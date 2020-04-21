@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       
       <Navbar/> 
-      <PropsExample prop1="Brie" prop2="Juan"/>
+      <PropsExample prop1="Brie" prop2="Juan" prop3="Niko"/>
       
     </div>
   );
