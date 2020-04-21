@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './component/Navbar';
 import PropsExample from './component/PropsExample';
+import FormField from './component/FormField'; 
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       
       <Navbar/> 
       <PropsExample prop1="Brie" prop2="Juan" prop3="Niko"/>
+      <FormField/>
       
     </div>
   );
